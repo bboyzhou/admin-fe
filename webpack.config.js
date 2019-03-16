@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.leyigou.com/admin_fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.leyigou.store/admin_fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {

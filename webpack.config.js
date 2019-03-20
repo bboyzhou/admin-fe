@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2016-11-20 13:19:28
 * @Last Modified by:   beat
-* @Last Modified time: 2019-03-20 21:40:40
+* @Last Modified time: 2019-03-20 21:45:58
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
 
@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.leyigou.store/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.leyigou.store/admin_fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
